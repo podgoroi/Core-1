@@ -12,11 +12,13 @@ public abstract class Employee {
 
   public abstract void work();
 
-  public String getName() {
-    return null;
+  public String getName(String name) {
+    this.name = name;
+    return name;
   }
 
-  public int getAge() {
-    return 0;
+  public int getAge(int age) {
+    this.age = age;
+    return age;
   }
 }

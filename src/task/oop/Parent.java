@@ -3,22 +3,26 @@ package task.oop;
 public class Parent {
 
   public int sumOfTwoNumbers(int a, int b) {
-    return 0;
+    int sumNumbers = a + b;
+    return sumNumbers;
   }
 
   public int sumOfStringAndNumber(String str, int num) {
-    return 0;
+    int str1 = Integer.parseInt(str);
+    str1 = str1 + num;
+    return str1;
   }
 
   public String returnString(String str) {
-    return null;
+    return str;
   }
 
   public void printParent() {
-
+    System.out.println("I am Parent");
   }
 
   public String concatenateStrings(String str1, String str2) {
-    return null;
+    String sumStrings = str1 + str2;
+    return sumStrings;
   }
 }

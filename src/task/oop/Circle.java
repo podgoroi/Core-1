@@ -1,15 +1,16 @@
 package task.oop;
 
-public class Circle {
+public class Circle extends Figure{
 
   private double radius;
 
   public Circle(String name, double radius) {
-    super();
+    super(name);
     this.radius = radius;
   }
 
   public double calculateArea() {
-    return 0;
+    double area = Math.PI * Math.pow(radius, 2);
+    return area;
   }
 }
